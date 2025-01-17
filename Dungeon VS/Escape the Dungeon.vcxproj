@@ -137,7 +137,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="chaserEnemy.cpp" />
+    <ClCompile Include="patrollingEnemy.cpp" />
+    <ClCompile Include="player.cpp" />
+    <ClCompile Include="game.cpp" />
     <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="chaserEnemy.h" />
+    <ClInclude Include="enemy.h" />
+    <ClInclude Include="entity.h" />
+    <ClInclude Include="game.h" />
+    <ClInclude Include="patrollingEnemy.h" />
+    <ClInclude Include="player.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
