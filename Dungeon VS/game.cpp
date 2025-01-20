@@ -1,7 +1,9 @@
 #include "Game.h"
 
-Game::Game() : isRunning(false) {
+Game::Game() : isRunning(false), enemyManager(), objectManager(), mapManager(enemyManager, objectManager) {
+    srand(static_cast<unsigned int>(time(0)));
     createWindow();
+    mapManager.loadMap("assets/map/elements.png");
 }
 
 Game::~Game() {}
@@ -23,11 +25,15 @@ void Game::processEvents() {
 
 void Game::update(float deltaTime) {
     player.update(deltaTime, window);
+    enemyManager.updateEnemies(deltaTime, player);
+    mapManager.updateObjects(deltaTime, window, player);
 }
 
 void Game::render() {
     window.clear();
     player.draw(window);
+    enemyManager.renderEnemies(window);
+    mapManager.renderObjects(window);
     window.display();
 }
 

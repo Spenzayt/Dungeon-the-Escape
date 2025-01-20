@@ -2,7 +2,12 @@
 #define GAME_H
 
 #include <SFML/Graphics.hpp>
-#include "Player.h"
+#include "player.h"
+#include "chaserEnemy.h"
+#include "patrollingEnemy.h"
+#include "enemyManager.h"
+#include "objectManager.h"
+#include "mapManager.h"
 
 class Game {
 public:
@@ -19,7 +24,13 @@ private:
 
     sf::RenderWindow window;
     bool isRunning;
+    
     Player player;
+    ChaserEnemy chaser;
+    PatrollingEnemy patrolling;
+    EnemyManager enemyManager;
+    ObjectManager objectManager;
+    MapManager mapManager;
 };
 
 #endif // GAME_H

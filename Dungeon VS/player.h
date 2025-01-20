@@ -22,6 +22,8 @@ public:
     void setPosY(int newY);
     void setSpeed(float newSpeed);
 
+    const sf::RectangleShape& getPlayerSprite() const;
+
     void update(float deltaTime, const sf::RenderWindow& window) override;
     void draw(sf::RenderWindow& window) override;
 

@@ -138,18 +138,28 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="chaserEnemy.cpp" />
+    <ClCompile Include="enemyManager.cpp" />
+    <ClCompile Include="key.cpp" />
+    <ClCompile Include="mapManager.cpp" />
+    <ClCompile Include="objectManager.cpp" />
     <ClCompile Include="patrollingEnemy.cpp" />
     <ClCompile Include="player.cpp" />
     <ClCompile Include="game.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="potion.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chaserEnemy.h" />
     <ClInclude Include="enemy.h" />
+    <ClInclude Include="enemyManager.h" />
     <ClInclude Include="entity.h" />
     <ClInclude Include="game.h" />
+    <ClInclude Include="key.h" />
+    <ClInclude Include="mapManager.h" />
+    <ClInclude Include="objectManager.h" />
     <ClInclude Include="patrollingEnemy.h" />
     <ClInclude Include="player.h" />
+    <ClInclude Include="potion.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
