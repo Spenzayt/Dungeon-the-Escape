@@ -1,18 +1,24 @@
 #include "key.h"
+#include <iostream>
 
 Key::Key(float x, float y) : isCollected(false) {
-    keyShape.setSize(sf::Vector2f(25.f, 25.f));
-    keyShape.setFillColor(sf::Color::Yellow);
-    keyShape.setPosition(x, y);
+    if (!texture.loadFromFile("assets/objects/key.png")) {
+        std::cerr << "Erreur de chargement de la texture de la clé!" << std::endl;
+    }
+
+    sprite.setTexture(texture);
+    sprite.setScale(50.f / texture.getSize().x, 50.f / texture.getSize().y);
+    sprite.setPosition(x, y);
 }
 
 void Key::update(float deltaTime, const sf::RenderWindow& window) {
+    if (isCollected) return;
 
 }
 
 void Key::draw(sf::RenderWindow& window) {
     if (!isCollected) {
-        window.draw(keyShape);
+        window.draw(sprite);
     }
 }
 
@@ -25,5 +31,5 @@ void Key::collectKey() {
 }
 
 sf::FloatRect Key::getBounds() const {
-    return keyShape.getGlobalBounds();
+    return sprite.getGlobalBounds();
 }

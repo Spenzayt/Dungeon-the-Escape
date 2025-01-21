@@ -1,2 +1,16 @@
-﻿  mapManager.cpp
+﻿  player.cpp
+C:\Users\rmeudec\Documents\GitHub\Dungeon-the-Escape\Dungeon VS\player.cpp(37,23): warning C4244: '-=' : conversion de 'float' en 'int', perte possible de données
+C:\Users\rmeudec\Documents\GitHub\Dungeon-the-Escape\Dungeon VS\player.cpp(40,23): warning C4244: '+=' : conversion de 'float' en 'int', perte possible de données
+C:\Users\rmeudec\Documents\GitHub\Dungeon-the-Escape\Dungeon VS\player.cpp(43,23): warning C4244: '-=' : conversion de 'float' en 'int', perte possible de données
+C:\Users\rmeudec\Documents\GitHub\Dungeon-the-Escape\Dungeon VS\player.cpp(46,23): warning C4244: '+=' : conversion de 'float' en 'int', perte possible de données
+C:\Users\rmeudec\Documents\GitHub\Dungeon-the-Escape\Dungeon VS\player.cpp(58,29): warning C4244: '=' : conversion de 'T' en 'int', perte possible de données
+C:\Users\rmeudec\Documents\GitHub\Dungeon-the-Escape\Dungeon VS\player.cpp(58,29): warning C4244:         with
+C:\Users\rmeudec\Documents\GitHub\Dungeon-the-Escape\Dungeon VS\player.cpp(58,29): warning C4244:         [
+C:\Users\rmeudec\Documents\GitHub\Dungeon-the-Escape\Dungeon VS\player.cpp(58,29): warning C4244:             T=float
+C:\Users\rmeudec\Documents\GitHub\Dungeon-the-Escape\Dungeon VS\player.cpp(58,29): warning C4244:         ]
+C:\Users\rmeudec\Documents\GitHub\Dungeon-the-Escape\Dungeon VS\player.cpp(66,29): warning C4244: '=' : conversion de 'T' en 'int', perte possible de données
+C:\Users\rmeudec\Documents\GitHub\Dungeon-the-Escape\Dungeon VS\player.cpp(66,29): warning C4244:         with
+C:\Users\rmeudec\Documents\GitHub\Dungeon-the-Escape\Dungeon VS\player.cpp(66,29): warning C4244:         [
+C:\Users\rmeudec\Documents\GitHub\Dungeon-the-Escape\Dungeon VS\player.cpp(66,29): warning C4244:             T=float
+C:\Users\rmeudec\Documents\GitHub\Dungeon-the-Escape\Dungeon VS\player.cpp(66,29): warning C4244:         ]
   Escape the Dungeon.vcxproj -> C:\Users\rmeudec\Documents\GitHub\Dungeon-the-Escape\Dungeon VS\x64\Debug\Escape the Dungeon.exe

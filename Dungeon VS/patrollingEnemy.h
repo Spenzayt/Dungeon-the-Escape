@@ -9,7 +9,7 @@ private:
     sf::RectangleShape enemySprite;
 
 public:
-    PatrollingEnemy();
+    PatrollingEnemy(float x, float y);
     ~PatrollingEnemy() override;
 
     void update(float deltaTime, const Player& player) override;

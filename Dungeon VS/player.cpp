@@ -1,7 +1,7 @@
 #include "Player.h"
 
 Player::Player() : posX(960), posY(540), speed(800.0f) {
-    playerSprite.setSize(sf::Vector2f(50.f, 50.f));
+    playerSprite.setSize(sf::Vector2f(60.f, 60.f));
     playerSprite.setFillColor(sf::Color::Green);
     playerSprite.setPosition(static_cast<float>(posX), static_cast<float>(posY));
 }

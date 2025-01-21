@@ -7,7 +7,7 @@
 #include "patrollingEnemy.h"
 #include "enemyManager.h"
 #include "objectManager.h"
-#include "mapManager.h"
+#include "map.h"
 
 class Game {
 public:
@@ -26,11 +26,9 @@ private:
     bool isRunning;
     
     Player player;
-    ChaserEnemy chaser;
-    PatrollingEnemy patrolling;
     EnemyManager enemyManager;
     ObjectManager objectManager;
-    MapManager mapManager;
+    Map map;
 };
 
 #endif // GAME_H

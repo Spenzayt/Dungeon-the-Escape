@@ -22,7 +22,7 @@ public:
     EnemyManager();
     ~EnemyManager();
 
-    void spawnEnemy(int numberOfEnemies, EnemyType type);
+    void spawnEnemy(int numberOfEnemies, EnemyType type, float posX, float posY);
     void updateEnemies(float deltaTime, const Player& player);
     void renderEnemies(sf::RenderWindow& window);
 };

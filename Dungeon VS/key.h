@@ -6,7 +6,8 @@
 
 class Key : public Entity {
 private:
-    sf::RectangleShape keyShape;
+    sf::Texture texture;
+    sf::Sprite sprite;
     bool isCollected;
 
 public:

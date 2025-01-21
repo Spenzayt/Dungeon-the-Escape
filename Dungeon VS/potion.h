@@ -6,7 +6,8 @@
 
 class Potion : public Entity {
 private:
-    sf::RectangleShape potionShape;
+    sf::Texture texture;
+    sf::Sprite sprite;
     bool isCollected;
 
 public:

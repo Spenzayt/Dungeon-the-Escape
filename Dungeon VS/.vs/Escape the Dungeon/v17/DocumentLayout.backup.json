@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\rmeudec\\Documents\\GitHub\\Dungeon-the-Escape\\Dungeon VS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D8221E53-C63B-45FB-AD03-15C31BC875C9}|Escape the Dungeon.vcxproj|C:\\Users\\rmeudec\\Documents\\GitHub\\Dungeon-the-Escape\\Dungeon VS\\mapManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D8221E53-C63B-45FB-AD03-15C31BC875C9}|Escape the Dungeon.vcxproj|solutionrelative:mapManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{D8221E53-C63B-45FB-AD03-15C31BC875C9}|Escape the Dungeon.vcxproj|C:\\Users\\rmeudec\\Documents\\GitHub\\Dungeon-the-Escape\\Dungeon VS\\player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D8221E53-C63B-45FB-AD03-15C31BC875C9}|Escape the Dungeon.vcxproj|solutionrelative:player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D8221E53-C63B-45FB-AD03-15C31BC875C9}|Escape the Dungeon.vcxproj|C:\\Users\\rmeudec\\Documents\\GitHub\\Dungeon-the-Escape\\Dungeon VS\\game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D8221E53-C63B-45FB-AD03-15C31BC875C9}|Escape the Dungeon.vcxproj|solutionrelative:game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{D8221E53-C63B-45FB-AD03-15C31BC875C9}|Escape the Dungeon.vcxproj|C:\\Users\\rmeudec\\Documents\\GitHub\\Dungeon-the-Escape\\Dungeon VS\\chaserEnemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D8221E53-C63B-45FB-AD03-15C31BC875C9}|Escape the Dungeon.vcxproj|solutionrelative:chaserEnemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D8221E53-C63B-45FB-AD03-15C31BC875C9}|Escape the Dungeon.vcxproj|C:\\Users\\rmeudec\\Documents\\GitHub\\Dungeon-the-Escape\\Dungeon VS\\objectManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D8221E53-C63B-45FB-AD03-15C31BC875C9}|Escape the Dungeon.vcxproj|solutionrelative:objectManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{D8221E53-C63B-45FB-AD03-15C31BC875C9}|Escape the Dungeon.vcxproj|C:\\Users\\rmeudec\\Documents\\GitHub\\Dungeon-the-Escape\\Dungeon VS\\patrollingEnemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D8221E53-C63B-45FB-AD03-15C31BC875C9}|Escape the Dungeon.vcxproj|solutionrelative:patrollingEnemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D8221E53-C63B-45FB-AD03-15C31BC875C9}|Escape the Dungeon.vcxproj|C:\\Users\\rmeudec\\Documents\\GitHub\\Dungeon-the-Escape\\Dungeon VS\\mapManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D8221E53-C63B-45FB-AD03-15C31BC875C9}|Escape the Dungeon.vcxproj|solutionrelative:mapManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D8221E53-C63B-45FB-AD03-15C31BC875C9}|Escape the Dungeon.vcxproj|C:\\Users\\rmeudec\\Documents\\GitHub\\Dungeon-the-Escape\\Dungeon VS\\game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D8221E53-C63B-45FB-AD03-15C31BC875C9}|Escape the Dungeon.vcxproj|solutionrelative:game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D8221E53-C63B-45FB-AD03-15C31BC875C9}|Escape the Dungeon.vcxproj|C:\\Users\\rmeudec\\Documents\\GitHub\\Dungeon-the-Escape\\Dungeon VS\\objectManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D8221E53-C63B-45FB-AD03-15C31BC875C9}|Escape the Dungeon.vcxproj|solutionrelative:objectManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{D8221E53-C63B-45FB-AD03-15C31BC875C9}|Escape the Dungeon.vcxproj|C:\\Users\\rmeudec\\Documents\\GitHub\\Dungeon-the-Escape\\Dungeon VS\\patrollingEnemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D8221E53-C63B-45FB-AD03-15C31BC875C9}|Escape the Dungeon.vcxproj|solutionrelative:patrollingEnemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D8221E53-C63B-45FB-AD03-15C31BC875C9}|Escape the Dungeon.vcxproj|C:\\Users\\rmeudec\\Documents\\GitHub\\Dungeon-the-Escape\\Dungeon VS\\enemyManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -35,20 +27,24 @@
       "RelativeMoniker": "D:0:0:{D8221E53-C63B-45FB-AD03-15C31BC875C9}|Escape the Dungeon.vcxproj|solutionrelative:enemyManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D8221E53-C63B-45FB-AD03-15C31BC875C9}|Escape the Dungeon.vcxproj|C:\\Users\\rmeudec\\Documents\\GitHub\\Dungeon-the-Escape\\Dungeon VS\\patrollingEnemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D8221E53-C63B-45FB-AD03-15C31BC875C9}|Escape the Dungeon.vcxproj|solutionrelative:patrollingEnemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{D8221E53-C63B-45FB-AD03-15C31BC875C9}|Escape the Dungeon.vcxproj|C:\\Users\\rmeudec\\Documents\\GitHub\\Dungeon-the-Escape\\Dungeon VS\\map.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D8221E53-C63B-45FB-AD03-15C31BC875C9}|Escape the Dungeon.vcxproj|solutionrelative:map.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D8221E53-C63B-45FB-AD03-15C31BC875C9}|Escape the Dungeon.vcxproj|C:\\Users\\rmeudec\\Documents\\GitHub\\Dungeon-the-Escape\\Dungeon VS\\patrollingEnemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D8221E53-C63B-45FB-AD03-15C31BC875C9}|Escape the Dungeon.vcxproj|solutionrelative:patrollingEnemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{D8221E53-C63B-45FB-AD03-15C31BC875C9}|Escape the Dungeon.vcxproj|C:\\Users\\rmeudec\\Documents\\GitHub\\Dungeon-the-Escape\\Dungeon VS\\map.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D8221E53-C63B-45FB-AD03-15C31BC875C9}|Escape the Dungeon.vcxproj|solutionrelative:map.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8221E53-C63B-45FB-AD03-15C31BC875C9}|Escape the Dungeon.vcxproj|C:\\Users\\rmeudec\\Documents\\GitHub\\Dungeon-the-Escape\\Dungeon VS\\game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D8221E53-C63B-45FB-AD03-15C31BC875C9}|Escape the Dungeon.vcxproj|solutionrelative:game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8221E53-C63B-45FB-AD03-15C31BC875C9}|Escape the Dungeon.vcxproj|C:\\Users\\rmeudec\\Documents\\GitHub\\Dungeon-the-Escape\\Dungeon VS\\game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D8221E53-C63B-45FB-AD03-15C31BC875C9}|Escape the Dungeon.vcxproj|solutionrelative:game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D8221E53-C63B-45FB-AD03-15C31BC875C9}|Escape the Dungeon.vcxproj|C:\\Users\\rmeudec\\Documents\\GitHub\\Dungeon-the-Escape\\Dungeon VS\\chaserEnemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D8221E53-C63B-45FB-AD03-15C31BC875C9}|Escape the Dungeon.vcxproj|solutionrelative:chaserEnemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D8221E53-C63B-45FB-AD03-15C31BC875C9}|Escape the Dungeon.vcxproj|C:\\Users\\rmeudec\\Documents\\GitHub\\Dungeon-the-Escape\\Dungeon VS\\chaserEnemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D8221E53-C63B-45FB-AD03-15C31BC875C9}|Escape the Dungeon.vcxproj|solutionrelative:chaserEnemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,17 +54,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "game.cpp",
               "DocumentMoniker": "C:\\Users\\rmeudec\\Documents\\GitHub\\Dungeon-the-Escape\\Dungeon VS\\game.cpp",
               "RelativeDocumentMoniker": "game.cpp",
               "ToolTip": "C:\\Users\\rmeudec\\Documents\\GitHub\\Dungeon-the-Escape\\Dungeon VS\\game.cpp",
               "RelativeToolTip": "game.cpp",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACMAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-17T14:12:58.904Z",
               "IsPinned": true,
@@ -76,13 +72,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "game.h",
               "DocumentMoniker": "C:\\Users\\rmeudec\\Documents\\GitHub\\Dungeon-the-Escape\\Dungeon VS\\game.h",
               "RelativeDocumentMoniker": "game.h",
               "ToolTip": "C:\\Users\\rmeudec\\Documents\\GitHub\\Dungeon-the-Escape\\Dungeon VS\\game.h",
               "RelativeToolTip": "game.h",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAYwAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-01-20T13:24:03.12Z",
               "IsPinned": true,
@@ -90,54 +86,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "mapManager.h",
-              "DocumentMoniker": "C:\\Users\\rmeudec\\Documents\\GitHub\\Dungeon-the-Escape\\Dungeon VS\\mapManager.h",
-              "RelativeDocumentMoniker": "mapManager.h",
-              "ToolTip": "C:\\Users\\rmeudec\\Documents\\GitHub\\Dungeon-the-Escape\\Dungeon VS\\mapManager.h",
-              "RelativeToolTip": "mapManager.h",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-20T16:23:09.196Z",
+              "DocumentIndex": 0,
+              "Title": "player.cpp",
+              "DocumentMoniker": "C:\\Users\\rmeudec\\Documents\\GitHub\\Dungeon-the-Escape\\Dungeon VS\\player.cpp",
+              "RelativeDocumentMoniker": "player.cpp",
+              "ToolTip": "C:\\Users\\rmeudec\\Documents\\GitHub\\Dungeon-the-Escape\\Dungeon VS\\player.cpp",
+              "RelativeToolTip": "player.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-21T11:55:44.314Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "mapManager.cpp",
-              "DocumentMoniker": "C:\\Users\\rmeudec\\Documents\\GitHub\\Dungeon-the-Escape\\Dungeon VS\\mapManager.cpp",
-              "RelativeDocumentMoniker": "mapManager.cpp",
-              "ToolTip": "C:\\Users\\rmeudec\\Documents\\GitHub\\Dungeon-the-Escape\\Dungeon VS\\mapManager.cpp",
-              "RelativeToolTip": "mapManager.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "map.cpp",
+              "DocumentMoniker": "C:\\Users\\rmeudec\\Documents\\GitHub\\Dungeon-the-Escape\\Dungeon VS\\map.cpp",
+              "RelativeDocumentMoniker": "map.cpp",
+              "ToolTip": "C:\\Users\\rmeudec\\Documents\\GitHub\\Dungeon-the-Escape\\Dungeon VS\\map.cpp",
+              "RelativeToolTip": "map.cpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-20T16:22:54.462Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "objectManager.cpp",
-              "DocumentMoniker": "C:\\Users\\rmeudec\\Documents\\GitHub\\Dungeon-the-Escape\\Dungeon VS\\objectManager.cpp",
-              "RelativeDocumentMoniker": "objectManager.cpp",
-              "ToolTip": "C:\\Users\\rmeudec\\Documents\\GitHub\\Dungeon-the-Escape\\Dungeon VS\\objectManager.cpp",
-              "RelativeToolTip": "objectManager.cpp",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAIwB8AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-20T15:48:13.938Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "objectManager.h",
-              "DocumentMoniker": "C:\\Users\\rmeudec\\Documents\\GitHub\\Dungeon-the-Escape\\Dungeon VS\\objectManager.h",
-              "RelativeDocumentMoniker": "objectManager.h",
-              "ToolTip": "C:\\Users\\rmeudec\\Documents\\GitHub\\Dungeon-the-Escape\\Dungeon VS\\objectManager.h",
-              "RelativeToolTip": "objectManager.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "map.h",
+              "DocumentMoniker": "C:\\Users\\rmeudec\\Documents\\GitHub\\Dungeon-the-Escape\\Dungeon VS\\map.h",
+              "RelativeDocumentMoniker": "map.h",
+              "ToolTip": "C:\\Users\\rmeudec\\Documents\\GitHub\\Dungeon-the-Escape\\Dungeon VS\\map.h",
+              "RelativeToolTip": "map.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-20T15:47:48.536Z",
+              "WhenOpened": "2025-01-20T16:23:09.196Z",
               "EditorCaption": ""
             }
           ]
@@ -159,17 +142,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 1,
               "Title": "chaserEnemy.cpp",
               "DocumentMoniker": "C:\\Users\\rmeudec\\Documents\\GitHub\\Dungeon-the-Escape\\Dungeon VS\\chaserEnemy.cpp",
               "RelativeDocumentMoniker": "chaserEnemy.cpp",
               "ToolTip": "C:\\Users\\rmeudec\\Documents\\GitHub\\Dungeon-the-Escape\\Dungeon VS\\chaserEnemy.cpp",
               "RelativeToolTip": "chaserEnemy.cpp",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAmwA4AAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-17T16:26:54.394Z",
               "EditorCaption": ""
@@ -182,59 +165,59 @@
               "RelativeDocumentMoniker": "chaserEnemy.h",
               "ToolTip": "C:\\Users\\rmeudec\\Documents\\GitHub\\Dungeon-the-Escape\\Dungeon VS\\chaserEnemy.h",
               "RelativeToolTip": "chaserEnemy.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-01-17T16:27:47.543Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "patrollingEnemy.cpp",
               "DocumentMoniker": "C:\\Users\\rmeudec\\Documents\\GitHub\\Dungeon-the-Escape\\Dungeon VS\\patrollingEnemy.cpp",
               "RelativeDocumentMoniker": "patrollingEnemy.cpp",
               "ToolTip": "C:\\Users\\rmeudec\\Documents\\GitHub\\Dungeon-the-Escape\\Dungeon VS\\patrollingEnemy.cpp",
               "RelativeToolTip": "patrollingEnemy.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-17T16:27:21.662Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "patrollingEnemy.h",
               "DocumentMoniker": "C:\\Users\\rmeudec\\Documents\\GitHub\\Dungeon-the-Escape\\Dungeon VS\\patrollingEnemy.h",
               "RelativeDocumentMoniker": "patrollingEnemy.h",
               "ToolTip": "C:\\Users\\rmeudec\\Documents\\GitHub\\Dungeon-the-Escape\\Dungeon VS\\patrollingEnemy.h",
               "RelativeToolTip": "patrollingEnemy.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-01-17T16:27:31.685Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "enemyManager.cpp",
               "DocumentMoniker": "C:\\Users\\rmeudec\\Documents\\GitHub\\Dungeon-the-Escape\\Dungeon VS\\enemyManager.cpp",
               "RelativeDocumentMoniker": "enemyManager.cpp",
               "ToolTip": "C:\\Users\\rmeudec\\Documents\\GitHub\\Dungeon-the-Escape\\Dungeon VS\\enemyManager.cpp",
               "RelativeToolTip": "enemyManager.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAswB0AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-20T14:37:54.843Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "enemyManager.h",
               "DocumentMoniker": "C:\\Users\\rmeudec\\Documents\\GitHub\\Dungeon-the-Escape\\Dungeon VS\\enemyManager.h",
               "RelativeDocumentMoniker": "enemyManager.h",
               "ToolTip": "C:\\Users\\rmeudec\\Documents\\GitHub\\Dungeon-the-Escape\\Dungeon VS\\enemyManager.h",
               "RelativeToolTip": "enemyManager.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-01-20T14:37:49.501Z",
               "EditorCaption": ""

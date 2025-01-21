@@ -1,13 +1,9 @@
 #include "chaserEnemy.h"
 
-ChaserEnemy::ChaserEnemy() : speed(400.0f), isChasing(false) {
-    enemySprite.setSize({ 50.0f, 50.0f });
+ChaserEnemy::ChaserEnemy(float x, float y) : speed(400.0f), isChasing(false) {
+    enemySprite.setSize({ 60.0f, 60.0f });
     enemySprite.setFillColor(sf::Color::Cyan);
-
-    int randomX = rand() % (1920 - static_cast<int>(enemySprite.getSize().x));
-    int randomY = rand() % (1080 - static_cast<int>(enemySprite.getSize().y));
-
-    enemySprite.setPosition(static_cast<float>(randomX), static_cast<float>(randomY));
+    enemySprite.setPosition(x, y);
 }
 
 ChaserEnemy::~ChaserEnemy() {}

@@ -13,7 +13,7 @@ private:
     bool isChasing;
 
 public:
-    ChaserEnemy();
+    ChaserEnemy(float x, float y);
     ~ChaserEnemy() override;
 
     void update(float deltaTime, const Player& player) override;

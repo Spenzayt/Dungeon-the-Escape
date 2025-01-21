@@ -25,7 +25,7 @@ public:
     void spawnObject(ObjectType type, float x, float y);
     void updateObjects(float deltaTime, const sf::RenderWindow& window);
     void renderObjects(sf::RenderWindow& window);
-    void checkObjectCollision(Player& player);
+    void checkObjectCollision(const Player& player);
 };
 
 #endif // OBJECTMANAGER_H

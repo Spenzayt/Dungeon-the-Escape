@@ -35,7 +35,7 @@ void ObjectManager::renderObjects(sf::RenderWindow& window) {
     }
 }
 
-void ObjectManager::checkObjectCollision(Player& player) {
+void ObjectManager::checkObjectCollision(const Player& player) {
     for (auto& object : objects) {
         if (auto key = dynamic_cast<Key*>(object.get())) {
             if (key->getBounds().intersects(player.getPlayerSprite().getGlobalBounds()) && !key->isKeyCollected()) {
