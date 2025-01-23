@@ -55,6 +55,16 @@ void Map::loadBackgroundFromImageFile(const std::string& elementsFilename, const
                 rock.setPosition(x * 60.f, y * 60.f);
                 rockSprites.push_back(rock);
             }
+            else if (pixelColor == sf::Color(255, 225, 0)) {
+                sf::Vector2f doorPosition(x * 60.f - 60.f, y * 60.f);
+                objectManager.spawnDoor(doorPosition);
+                sf::Texture doorTexture;
+                sf::Sprite door(doorTexture);
+                door.setColor(sf::Color::Red);
+                door.setPosition(doorPosition);
+                door.setScale(2.f, 2.f);
+                doorSprites.push_back(door);
+            }
             else if (pixelColor == sf::Color::White) {
                 // Ajouter d'autres éléments si nécessaire (par exemple, des plateformes ou objets)
             }
@@ -62,10 +72,15 @@ void Map::loadBackgroundFromImageFile(const std::string& elementsFilename, const
     }
 }
 
-void Map::update(float deltaTime, const sf::RenderWindow& window, const Player& player) {
+void Map::update(float deltaTime, const sf::RenderWindow& window, Player& player) {
     objectManager.updateObjects(deltaTime, window);
     enemyManager.updateEnemies(deltaTime, player);
     objectManager.checkObjectCollision(player);
+
+    sf::FloatRect playerBounds(player.getPosX(), player.getPosY(), player.getPlayerSprite().getSize().x, player.getPlayerSprite().getSize().y);
+    if (checkWallCollision(playerBounds)) {
+        std::cout << "Collision avec le mur !" << std::endl;
+    }
 }
 
 void Map::draw(sf::RenderWindow& window) {
@@ -75,4 +90,20 @@ void Map::draw(sf::RenderWindow& window) {
 
     objectManager.renderObjects(window);
     enemyManager.renderEnemies(window);
+}
+
+bool Map::checkWallCollision(const sf::FloatRect& objectBounds) {
+    for (auto& rock : rockSprites) {
+        if (rock.getGlobalBounds().intersects(objectBounds)) {
+            return true;
+        }
+    }
+
+    for (auto& door : doorSprites) {
+        if (door.getGlobalBounds().intersects(objectBounds)) {
+            return true;
+        }
+    }
+
+    return false;
 }

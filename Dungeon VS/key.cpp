@@ -13,7 +13,6 @@ Key::Key(float x, float y) : isCollected(false) {
 
 void Key::update(float deltaTime, const sf::RenderWindow& window) {
     if (isCollected) return;
-
 }
 
 void Key::draw(sf::RenderWindow& window) {

@@ -3,24 +3,33 @@
 
 #include "entity.h"
 
+class Map;
+
 class Player : public Entity {
 private:
-    int posX;
-    int posY;
+    float posX;
+    float posY;
     float speed;
     sf::RectangleShape playerSprite;
+    bool hasKey;
+
+    Map* map;
 
 public:
     Player();
     ~Player() override;
 
-    int getPosX() const;
-    int getPosY() const;
-    float getSpeed() const;
+    void setMap(Map* newMap);
 
-    void setPosX(int newX);
-    void setPosY(int newY);
+    float getPosX() const;
+    float getPosY() const;
+    float getSpeed() const;
+    bool getHasKey() const;
+
+    void setPosX(float newX);
+    void setPosY(float newY);
     void setSpeed(float newSpeed);
+    void setHasKey(bool value);
 
     const sf::RectangleShape& getPlayerSprite() const;
 
@@ -29,6 +38,9 @@ public:
 
     void handleInput(float deltaTime);
     void limitToScreen(const sf::RenderWindow& window);
+
+    void collectKey();
+    bool hasCollectedKey() const;
 };
 
 #endif // PLAYER_H

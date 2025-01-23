@@ -138,6 +138,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="chaserEnemy.cpp" />
+    <ClCompile Include="door.cpp" />
     <ClCompile Include="enemyManager.cpp" />
     <ClCompile Include="key.cpp" />
     <ClCompile Include="map.cpp" />
@@ -150,6 +151,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chaserEnemy.h" />
+    <ClInclude Include="door.h" />
     <ClInclude Include="enemy.h" />
     <ClInclude Include="enemyManager.h" />
     <ClInclude Include="entity.h" />

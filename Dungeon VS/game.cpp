@@ -3,6 +3,7 @@
 Game::Game() : isRunning(false), enemyManager(), objectManager() {
     srand(static_cast<unsigned int>(time(0)));
     createWindow();
+    player.setMap(&map);
     map.loadBackgroundFromImageFile("assets/map/background.png", "assets/map/rock.png");
     map.loadFromImageFile("assets/map/objects.png", window);
 }

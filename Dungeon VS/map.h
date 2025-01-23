@@ -16,18 +16,25 @@ private:
     sf::Texture rockTexture;
     sf::Sprite rockSprite;
 
+    sf::Texture openDoorTexture;
+    sf::Texture closeDoorTexture;
+
     ObjectManager objectManager;
     EnemyManager enemyManager;
 
     std::vector<sf::Sprite> rockSprites;
+    std::vector<sf::Sprite> doorSprites;
+
 public:
     Map();
     ~Map();
 
     void loadFromImageFile(const std::string& elementsFilename, const sf::RenderWindow& window);
     void loadBackgroundFromImageFile(const std::string& elementsFilename, const std::string& rockTextureFile);
-    void update(float deltaTime, const sf::RenderWindow& window, const Player& player);
+    void update(float deltaTime, const sf::RenderWindow& window, Player& player);
     void draw(sf::RenderWindow& window);
+
+    bool checkWallCollision(const sf::FloatRect& objectBounds);
 };
 
 #endif // MAP_H
