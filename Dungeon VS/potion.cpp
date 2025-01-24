@@ -1,9 +1,11 @@
 #include "potion.h"
+#include "player.h"
 #include <iostream>
 
-Potion::Potion(float x, float y) : isCollected(false) {
+Potion::Potion(float x, float y, Player* player)
+    : isCollected(false), player(player) {
     if (!texture.loadFromFile("assets/objects/potion.png")) {
-        std::cerr << "Erreur de chargement de la texture de la clé!" << std::endl;
+        std::cerr << "Erreur de chargement de la texture de la potion !" << std::endl;
     }
 
     sprite.setTexture(texture);
@@ -27,6 +29,12 @@ bool Potion::isPotionCollected() const {
 
 void Potion::collectPotion() {
     isCollected = true;
+
+    if (player) {
+        player->activateSpeedBoost(2.f, 5.0f);
+    }
+
+    std::cout << "Potion ramassée !" << std::endl;
 }
 
 sf::FloatRect Potion::getBounds() const {

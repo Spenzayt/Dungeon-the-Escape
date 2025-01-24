@@ -1,11 +1,13 @@
 #include "Game.h"
 
-Game::Game() : isRunning(false), enemyManager(), objectManager() {
+Game::Game()
+    : isRunning(false), isGameOver(false), gameOver(1920, 1080),
+    enemyManager(), objectManager() {
     srand(static_cast<unsigned int>(time(0)));
     createWindow();
     player.setMap(&map);
     map.loadBackgroundFromImageFile("assets/map/background.png", "assets/map/rock.png");
-    map.loadFromImageFile("assets/map/objects.png", window);
+    map.loadFromImageFile("assets/map/objects.png", window, player);
 }
 
 Game::~Game() {}
@@ -26,16 +28,29 @@ void Game::processEvents() {
 }
 
 void Game::update(float deltaTime) {
+    if (isGameOver) return;
+
     player.update(deltaTime, window);
     enemyManager.updateEnemies(deltaTime, player);
     map.update(deltaTime, window, player);
+
+    if (player.isDead()) {
+        isGameOver = true;
+    }
 }
 
 void Game::render() {
     window.clear(sf::Color(135, 206, 235));
-    map.draw(window);
-    player.draw(window);
-    enemyManager.renderEnemies(window);
+
+    if (isGameOver) {
+        gameOver.render(window);
+    }
+    else {
+        map.draw(window);
+        player.draw(window);
+        enemyManager.renderEnemies(window);
+    }
+
     window.display();
 }
 

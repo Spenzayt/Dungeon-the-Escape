@@ -1,23 +1,28 @@
-#ifndef PATROLLING_ENEMY_H
-#define PATROLLING_ENEMY_H
+#ifndef PATROLLINGENEMY_H
+#define PATROLLINGENEMY_H
 
 #include "enemy.h"
+#include "player.h"
+#include <SFML/Graphics.hpp>
 
 class PatrollingEnemy : public Enemy {
 private:
-    float speed;
     sf::RectangleShape enemySprite;
+    float speed;
+
+    sf::Vector2f initialPosition;
+    int currentSide;
+    float distanceTraveled;
+    float sideLength;
 
 public:
     PatrollingEnemy(float x, float y);
-    ~PatrollingEnemy() override;
+    virtual ~PatrollingEnemy();
 
-    void update(float deltaTime, const Player& player) override;
-    void draw(sf::RenderWindow& window) override;
-
-    void patrolling();
+    virtual void update(float deltaTime, const Player& player) override;
+    virtual void draw(sf::RenderWindow& window) override;
 
     bool hitPlayer(const Player& player);
 };
 
-#endif // PATROLLING_ENEMY_H
+#endif // PATROLLINGENEMY_H

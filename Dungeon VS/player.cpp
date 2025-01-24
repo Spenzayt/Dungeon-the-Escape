@@ -2,12 +2,11 @@
 #include <iostream>
 #include "map.h" 
 
-Player::Player() : posX(960.f), posY(540.f), speed(800.0f), hasKey(false), map(nullptr) {
+Player::Player() : posX(100.f), posY(900.f), health(3), maxHealth(3), speed(800.0f), boostSpeedMultiplier(1.f), boostDuration(0.f), hasKey(false), map(nullptr) {
     playerSprite.setSize(sf::Vector2f(60.f, 60.f));
     playerSprite.setFillColor(sf::Color::Green);
     playerSprite.setPosition(posX, posY);
 }
-
 
 Player::~Player() {}
 
@@ -46,20 +45,22 @@ const sf::RectangleShape& Player::getPlayerSprite() const {
 }
 
 void Player::handleInput(float deltaTime) {
+    float adjustedSpeed = speed * boostSpeedMultiplier;
+
     float newPosX = posX;
     float newPosY = posY;
 
     if (sf::Keyboard::isKeyPressed(sf::Keyboard::Q)) {
-        newPosX -= speed * deltaTime;
+        newPosX -= adjustedSpeed * deltaTime;
     }
     if (sf::Keyboard::isKeyPressed(sf::Keyboard::D)) {
-        newPosX += speed * deltaTime;
+        newPosX += adjustedSpeed * deltaTime;
     }
     if (sf::Keyboard::isKeyPressed(sf::Keyboard::Z)) {
-        newPosY -= speed * deltaTime;
+        newPosY -= adjustedSpeed * deltaTime;
     }
     if (sf::Keyboard::isKeyPressed(sf::Keyboard::S)) {
-        newPosY += speed * deltaTime;
+        newPosY += adjustedSpeed * deltaTime;
     }
 
     sf::FloatRect newPlayerBounds(newPosX, newPosY, playerSprite.getSize().x, playerSprite.getSize().y);
@@ -94,6 +95,14 @@ void Player::limitToScreen(const sf::RenderWindow& window) {
 }
 
 void Player::update(float deltaTime, const sf::RenderWindow& window) {
+    if (boostDuration > 0.f) {
+        boostDuration -= deltaTime;
+        if (boostDuration <= 0.f) {
+            boostSpeedMultiplier = 1.f;
+        }
+    }
+
+
     handleInput(deltaTime);
     limitToScreen(window);
 }
@@ -111,4 +120,17 @@ void Player::collectKey() {
 
 bool Player::hasCollectedKey() const {
     return hasKey;
+}
+
+void Player::activateSpeedBoost(float multiplier, float duration) {
+    boostSpeedMultiplier = multiplier;
+    boostDuration = duration;
+}
+
+bool Player::isDead() const {
+    return health <= 0;
+}
+
+void Player::loseHealth() {
+    health--;
 }

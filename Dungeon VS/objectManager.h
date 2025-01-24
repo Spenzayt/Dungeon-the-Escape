@@ -24,7 +24,7 @@ public:
     ObjectManager();
     ~ObjectManager();
 
-    void spawnObject(ObjectType type, float x, float y);
+    void spawnObject(ObjectType type, float x, float y, Player* player);
 
     void spawnDoor(const sf::Vector2f& position);
 

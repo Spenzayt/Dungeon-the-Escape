@@ -4,14 +4,17 @@
 #include "entity.h"
 #include <SFML/Graphics.hpp>
 
+class Player;
+
 class Potion : public Entity {
 private:
     sf::Texture texture;
     sf::Sprite sprite;
     bool isCollected;
+    Player* player;
 
 public:
-    Potion(float x, float y);
+    Potion(float x, float y, Player* player);
     ~Potion() override = default;
 
     void update(float deltaTime, const sf::RenderWindow& window) override;

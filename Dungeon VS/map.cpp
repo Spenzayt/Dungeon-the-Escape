@@ -5,7 +5,7 @@ Map::Map() {}
 
 Map::~Map() {}
 
-void Map::loadFromImageFile(const std::string& elementsFilename, const sf::RenderWindow& window) {
+void Map::loadFromImageFile(const std::string& elementsFilename, const sf::RenderWindow& window, Player& player) {
     if (!image.loadFromFile(elementsFilename)) {
         std::cerr << "Erreur de chargement de l'image: " << elementsFilename << std::endl;
         return;
@@ -22,10 +22,10 @@ void Map::loadFromImageFile(const std::string& elementsFilename, const sf::Rende
                 enemyManager.spawnEnemy(1, EnemyManager::PATROLLING, x * 60.f, y * 60.f);
             }
             else if (pixelColor == sf::Color(251, 255, 0)) {
-                objectManager.spawnObject(ObjectManager::KEY, x * 60.f, y * 60.f);
+                objectManager.spawnObject(ObjectManager::KEY, x * 60.f, y * 60.f, &player);
             }
             else if (pixelColor == sf::Color(217, 0, 255)) {
-                objectManager.spawnObject(ObjectManager::POTION, x * 60.f, y * 60.f);
+                objectManager.spawnObject(ObjectManager::POTION, x * 60.f, y * 60.f, &player);
             }
         }
     }
@@ -64,9 +64,6 @@ void Map::loadBackgroundFromImageFile(const std::string& elementsFilename, const
                 door.setPosition(doorPosition);
                 door.setScale(2.f, 2.f);
                 doorSprites.push_back(door);
-            }
-            else if (pixelColor == sf::Color::White) {
-                // Ajouter d'autres éléments si nécessaire (par exemple, des plateformes ou objets)
             }
         }
     }

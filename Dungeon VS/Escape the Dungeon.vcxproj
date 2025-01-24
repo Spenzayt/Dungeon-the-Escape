@@ -140,6 +140,7 @@
     <ClCompile Include="chaserEnemy.cpp" />
     <ClCompile Include="door.cpp" />
     <ClCompile Include="enemyManager.cpp" />
+    <ClCompile Include="gameOver.cpp" />
     <ClCompile Include="key.cpp" />
     <ClCompile Include="map.cpp" />
     <ClCompile Include="objectManager.cpp" />
@@ -156,6 +157,7 @@
     <ClInclude Include="enemyManager.h" />
     <ClInclude Include="entity.h" />
     <ClInclude Include="game.h" />
+    <ClInclude Include="gameOver.h" />
     <ClInclude Include="key.h" />
     <ClInclude Include="map.h" />
     <ClInclude Include="objectManager.h" />

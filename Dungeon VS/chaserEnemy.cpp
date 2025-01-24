@@ -1,6 +1,6 @@
 #include "chaserEnemy.h"
 
-ChaserEnemy::ChaserEnemy(float x, float y) : speed(400.0f), isChasing(false) {
+ChaserEnemy::ChaserEnemy(float x, float y) : speed(100.f), isChasing(true) {
     enemySprite.setSize({ 60.0f, 60.0f });
     enemySprite.setFillColor(sf::Color::Cyan);
     enemySprite.setPosition(x, y);
@@ -14,7 +14,7 @@ void ChaserEnemy::update(float deltaTime, const Player& player) {
     }
 
     if (hitPlayer(player)) {
-        // hit
+        const_cast<Player&>(player).loseHealth();
     }
 }
 

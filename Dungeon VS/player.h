@@ -10,8 +10,13 @@ private:
     float posX;
     float posY;
     float speed;
+    int health;
+    int maxHealth;
     sf::RectangleShape playerSprite;
     bool hasKey;
+
+    float boostSpeedMultiplier;
+    float boostDuration;
 
     Map* map;
 
@@ -41,6 +46,11 @@ public:
 
     void collectKey();
     bool hasCollectedKey() const;
+
+    void activateSpeedBoost(float multiplier, float duration);
+
+    bool isDead() const;
+    void loseHealth();
 };
 
 #endif // PLAYER_H

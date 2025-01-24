@@ -8,6 +8,7 @@
 #include "enemyManager.h"
 #include "objectManager.h"
 #include "map.h"
+#include "gameOver.h"
 
 class Game {
 public:
@@ -24,11 +25,13 @@ private:
 
     sf::RenderWindow window;
     bool isRunning;
-    
+    bool isGameOver;
+
     Player player;
     EnemyManager enemyManager;
     ObjectManager objectManager;
     Map map;
+    GameOver gameOver;
 };
 
 #endif // GAME_H

@@ -29,7 +29,7 @@ public:
     Map();
     ~Map();
 
-    void loadFromImageFile(const std::string& elementsFilename, const sf::RenderWindow& window);
+    void loadFromImageFile(const std::string& elementsFilename, const sf::RenderWindow& window, Player& player);
     void loadBackgroundFromImageFile(const std::string& elementsFilename, const std::string& rockTextureFile);
     void update(float deltaTime, const sf::RenderWindow& window, Player& player);
     void draw(sf::RenderWindow& window);

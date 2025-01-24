@@ -5,7 +5,7 @@ ObjectManager::ObjectManager() {}
 
 ObjectManager::~ObjectManager() {}
 
-void ObjectManager::spawnObject(ObjectType type, float x, float y) {
+void ObjectManager::spawnObject(ObjectType type, float x, float y, Player* player) {
     std::shared_ptr<Entity> newObject;
 
     switch (type) {
@@ -13,7 +13,7 @@ void ObjectManager::spawnObject(ObjectType type, float x, float y) {
         newObject = std::make_shared<Key>(x, y);
         break;
     case POTION:
-        objects.push_back(std::make_shared<Potion>(x, y));
+        objects.push_back(std::make_shared<Potion>(x, y, player));
         break;
     case DOOR:
         std::cerr << "Erreur : Utilisez la surcharge de `spawnObject` pour les portes avec textures." << std::endl;
